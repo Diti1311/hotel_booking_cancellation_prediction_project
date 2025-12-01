@@ -1,14 +1,14 @@
-# 🏨 Hotel Booking Cancellation Prediction
+# Hotel Booking Cancellation Prediction
 
-## 🚀 Project Overview
+## Project Overview
 
 This project aims to predict hotel booking cancellations using historical booking data. It was developed as part of an internship project under the guidance of **Trendalytix**. The system leverages data preprocessing, exploratory data analysis (EDA), and machine learning techniques to forecast whether a booking will be canceled or not.
 
-🎯 **Objective**: Assist hotel management in reducing cancellations, optimizing bookings, and improving strategic decisions using a predictive ML pipeline and an interactive Power BI dashboard.
+**Objective**: Assist hotel management in reducing cancellations, optimizing bookings, and improving strategic decisions using a predictive ML pipeline and an interactive Power BI dashboard.
 
 ---
 
-## 🤝 Team Details
+## Team Details
 
 **Project Type:** Internship-based Team Project
 
@@ -24,7 +24,7 @@ This project aims to predict hotel booking cancellations using historical bookin
 
 ---
 
-## 🗅️ Problem Statement
+## Problem Statement
 
 Booking cancellations can lead to significant revenue loss and poor capacity planning for hotels. The goal of this project is to predict which bookings are likely to be canceled, using features like:
 
@@ -35,7 +35,7 @@ Booking cancellations can lead to significant revenue loss and poor capacity pla
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 * **Source:** [Kaggle – Hotel Booking Demand Dataset](https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand)
 * **File:** `hotel_bookings.csv`
@@ -44,7 +44,7 @@ Booking cancellations can lead to significant revenue loss and poor capacity pla
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 
 ```
 hotel_booking_cancellation_prediction_project/
@@ -77,9 +77,9 @@ hotel_booking_cancellation_prediction_project/
 
 ---
 
-## ⚙️ Project Workflow
+## Project Workflow
 
-### 1. 🧼 Data Cleaning & Preprocessing
+### 1. Data Cleaning & Preprocessing
 
 * Removed duplicates and handled missing values (`company`, `agent`, `children`, `country`)
 * Capped outliers in `lead_time`, `adr`, and `previous_cancellations`
@@ -90,7 +90,7 @@ hotel_booking_cancellation_prediction_project/
 
 ---
 
-### 2. 📊 Exploratory Data Analysis (EDA)
+### 2. Exploratory Data Analysis (EDA)
 
 * **Univariate Analysis:**
 
@@ -112,7 +112,7 @@ hotel_booking_cancellation_prediction_project/
 
 ---
 
-### 3. 🧠 Feature Engineering
+### 3. Feature Engineering
 
 * One-hot encoded all relevant categorical features
 * Removed date and ID-like columns (`reservation_status_date`, `arrival_date_year`, etc.)
@@ -121,11 +121,11 @@ hotel_booking_cancellation_prediction_project/
 
 ---
 
-### 4. 🤖 Model Development
+### 4. Model Development
 
 #### Algorithms Tested:
 
-* ✅ **XGBoost (Best Model)**
+* **XGBoost (Best Model)**
 * Random Forest
 * Logistic Regression
 * Decision Tree
@@ -137,7 +137,7 @@ hotel_booking_cancellation_prediction_project/
 * **Recall (Canceled):** 0.67
 * **F1-Score (Canceled):** 0.71
 
-#### 📈 Model Performance Comparison
+#### Model Performance Comparison
 
 | Model               | Accuracy | Precision (Canceled) | Recall (Canceled) | F1-Score (Canceled) |
 | ------------------- | -------- | -------------------- | ----------------- | ------------------- |
@@ -148,7 +148,7 @@ hotel_booking_cancellation_prediction_project/
 
 ---
 
-### 5. 📊 Dashboard Development (Power BI)
+### 5. Dashboard Development (Power BI)
 
 * Built dynamic KPIs and slicers to filter data by:
 
@@ -163,30 +163,30 @@ hotel_booking_cancellation_prediction_project/
 
 ---
 
-### 6. 📦 Final Deliverables
+### 6. Final Deliverables
 
-* 📄 **Project Report** (PDF)
-* 🔧 **Trained ML Model** (`xgboost_cancellation_model.pkl`)
-* 📊 **Interactive Dashboard** (Power BI)
-* 🔬 **Prediction Pipeline Script** (`hotel_booking_pipeline.py`)
+* **Project Report** (PDF)
+* **Trained ML Model** (`xgboost_cancellation_model.pkl`)
+* **Interactive Dashboard** (Power BI)
+* **Prediction Pipeline Script** (`hotel_booking_pipeline.py`)
 
 ---
 
-## 🔄 How to Use This Project
+## How to Use This Project
 
-### ⚙️ Setup Environment
+### Setup Environment
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 🧪 Predict on New Data
+### Predict on New Data
 
 ```bash
 python hotel_booking_pipeline.py
 ```
 
-### 📒 Explore in Jupyter Notebook
+### Explore in Jupyter Notebook
 
 Open:
 
@@ -196,7 +196,7 @@ notebooks/Hotel_bookings.ipynb
 
 ---
 
-## 📚 Key Learnings
+## Key Learnings
 
 * Real-world data issues: missing values, skewed distributions, class imbalance
 * Feature engineering and its impact on model performance
@@ -205,6 +205,6 @@ notebooks/Hotel_bookings.ipynb
 
 ---
 
-## 🚩 Acknowledgment
+## Acknowledgment
 
 Thanks to **Trendalytix** and our mentors for their support and valuable guidance during this internship project.
