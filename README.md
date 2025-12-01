@@ -205,17 +205,6 @@ notebooks/Hotel_bookings.ipynb
 
 ---
 
-## 💼 Contact
-
-Varshini Chilakala
-
-📧 Email: [varshini.chilakala27@gmail.com](mailto:varshini.chilakala27@gmail.com)
-
-🐙 GitHub: [@Varshini-Chilakala](https://github.com/Varshini-Chilakala)
-
-
----
-
 ## 🚩 Acknowledgment
 
 Thanks to **Trendalytix** and our mentors for their support and valuable guidance during this internship project.
